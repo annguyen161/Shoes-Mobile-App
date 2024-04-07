@@ -25,7 +25,7 @@ function HomeHeader() {
       <TouchableOpacity onPress={onPressImage}>
         <Image
           source={{
-            uri: 'https://images.unsplash.com/photo-1619895862022-09114b41f16f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+            uri: 'https://maycamtay.net/wp-content/uploads/2023/05/c6e56503cfdd87da299f72dc416023d4.jpg',
           }}
           style={localStyles.userImageStyle}
         />
@@ -35,7 +35,7 @@ function HomeHeader() {
           {'Good Morning 👋'}
         </CText>
         <CText type="B20" numberOfLines={1} color={colors.primaryTextColor}>
-          {'Peter Parker'}
+          {'Admin'}
         </CText>
       </View>
       <View style={styles.rowCenter}>

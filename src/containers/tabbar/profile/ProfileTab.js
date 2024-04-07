@@ -155,7 +155,7 @@ export default function ProfileTab() {
           style={[styles.selfCenter, styles.mb20]}>
           <Image
             source={{
-              uri: 'https://images.unsplash.com/photo-1619895862022-09114b41f16f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+              uri: 'https://maycamtay.net/wp-content/uploads/2023/05/c6e56503cfdd87da299f72dc416023d4.jpg',
             }}
             style={localStyles.userImage}
           />
@@ -163,10 +163,10 @@ export default function ProfileTab() {
         </TouchableOpacity>
         <View style={styles.mb20}>
           <CText type="b24" align={'center'}>
-            {'Peter Parker'}
+            {'Admin'}
           </CText>
           <CText type="m14" align={'center'} style={styles.mt10}>
-            {'peter@uixopen.com'}
+            {'Admin@gmail.com'}
           </CText>
         </View>
         {ProfileSetting.map((item, index) => {

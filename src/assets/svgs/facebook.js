@@ -1,0 +1,51 @@
+import * as React from 'react';
+import Svg, {
+  G,
+  Path,
+  Defs,
+  LinearGradient,
+  Stop,
+  ClipPath,
+  Rect,
+} from 'react-native-svg';
+const Facebook_Icon = props => (
+  <Svg
+    width={24}
+    height={25}
+    viewBox="0 0 24 25"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}>
+    <G clipPath="url(#clip0_1546_13898)">
+      <Path
+        d="M12 0.75C5.3724 0.75 0 6.1224 0 12.75C0 19.3776 5.3724 24.75 12 24.75C18.6276 24.75 24 19.3776 24 12.75C24 6.1224 18.6276 0.75 12 0.75Z"
+        fill="url(#paint0_linear_1546_13898)"
+      />
+      <Path
+        d="M13.7281 17.6078H16.9846L17.4961 14.2996H13.7281V12.4914C13.7281 11.1173 14.1773 9.89861 15.4627 9.89861H17.5282V7.01199C17.1652 6.96292 16.3976 6.85596 14.9474 6.85596C11.9186 6.85596 10.1431 8.4553 10.1431 12.0994V14.3003H7.0293V17.6084H10.1424V26.7012C10.759 26.793 11.3838 26.856 12.0249 26.856C12.6044 26.856 13.17 26.8031 13.7281 26.7276V17.6078Z"
+        fill="white"
+      />
+    </G>
+    <Defs>
+      <LinearGradient
+        id="paint0_linear_1546_13898"
+        x1={3.5958}
+        y1={4.3458}
+        x2={21.969}
+        y2={22.719}
+        gradientUnits="userSpaceOnUse">
+        <Stop stopColor="#2AA4F4" />
+        <Stop offset={1} stopColor="#007AD9" />
+      </LinearGradient>
+      <ClipPath id="clip0_1546_13898">
+        <Rect
+          width={24}
+          height={24}
+          fill="white"
+          transform="translate(0 0.75)"
+        />
+      </ClipPath>
+    </Defs>
+  </Svg>
+);
+export default Facebook_Icon;

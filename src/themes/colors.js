@@ -1,0 +1,85 @@
+//App colors
+const LightColor = {
+  light: 'light',
+  backgroundColor: '#FFFFFF',
+  textColor: '#0055A5',
+  linkColor: '#101010',
+  textBlack: '#000000',
+  textRevertColor: '#FFFFFF',
+  btnColor3: '#EEEEEE',
+  inputBg: '#FAFAFA',
+  dark3: '#E7E7E7',
+  iconColor: '#9E9E9E',
+  bColor: '#EEEEEE',
+  btnColor: '#101010',
+  imageBg: '#F3F3F3',
+  bgBtnSignUP: '#335EF7',
+  primary4: '#404040',
+  inactive: '#9E9E9E',
+  textBtnSignIn: '#FFFFFF',
+  icon: '#101010',
+  textTitle: '#246BFD',
+};
+
+const DarkColor = {
+  dark: 'dark',
+  backgroundColor: '#181A20',
+  textColor: '#FFFFFF',
+  textBlack: '#000000',
+  linkColor: '#FFFFFF',
+  bgBtnSignUP: '#335EF7',
+  textRevertColor: '#FFFFFF',
+  btnColor3: '#1F222A',
+  inputBg: '#1F222A',
+  dark3: '#35383F',
+  iconColor: '#616161',
+  bColor: '#35383F',
+  btnColor: '#35383F',
+  imageBg: '#35383F',
+  primary4: '#E0E0E0',
+  inactive: '#404040',
+  textBtnSignIn: '#000000',
+  icon: '#FFFFFF',
+  textTitle: '#FFFFFF',
+};
+
+// Common colors
+export const commonColor = {
+  white: '#FFFFFF',
+  black: '#000000',
+  primary: '#000000',
+  grayScale1: '#F5F5F5',
+  grayScale3: '#E0E0E0',
+  grayScale4: '#BDBDBD',
+  grayScale5: '#9E9E9E',
+  grayScale7: '#616161',
+  grayScale8: '#424242',
+  dark2: '#1F222A',
+  placeHolderColor: '#9E9E9E',
+  borderColor: '#35383F',
+  tranparent: '#00000000',
+  darkBg: '#181A20',
+  redColor: '#f75554',
+  lightGray: '#7575751F',
+  modalBg: '#00000099',
+  alertColor: '#000000',
+  transparentSilver: '#E0E0E0',
+  textWelcome: '#BDBDBD',
+  textBlue: '#64B5F6',
+  textBlueBold: '#0055A5',
+  bgSearch: '#f2f8fd',
+  bgTabBar: '#141E4A',
+  yellowColor: '#ffeb4f',
+};
+
+export const colors = {
+  light: {
+    ...LightColor,
+    ...commonColor,
+  },
+
+  dark: {
+    ...DarkColor,
+    ...commonColor,
+  },
+};
